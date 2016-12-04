@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+
+
+        <Spinner android:id="@+id/simpleSpinner"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+           />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Question ?"
+        android:id="@+id/edit_new_question"
+        android:gravity="center"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Question"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/btn_add_new_question"
+         android:drawableLeft="@android:drawable/ic_input_add"
+        android:background="@drawable/stylebuttonalert"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:text="Answer For Question "
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:weightSum="1"
+        >
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Choise 1"
+            android:enabled="false"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:layout_gravity="left"
+            android:layout_weight="0.7"
+            android:id="@+id/answer1"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:enabled="false"
+            android:id="@+id/checkbox1"
+            android:layout_weight="0.2"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:weightSum="1"
+        >
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Choise 2"
+            android:enabled="false"
+            android:gravity="center"
+            android:layout_gravity="left"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="4dp"
+            android:layout_weight="0.7"
+            android:id="@+id/answer2"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:enabled="false"
+            android:id="@+id/checkbox2"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.2"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:weightSum="1"
+        >
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Choise 3"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="4dp"
+            android:enabled="false"
+            android:gravity="center"
+            android:layout_gravity="left"
+            android:layout_weight="0.7"
+            android:id="@+id/answer3"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:enabled="false"
+            android:id="@+id/checkbox3"
+            android:layout_weight="0.2"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Answer"
+        android:enabled="false"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/stylebuttonalert"
+        android:id="@+id/btn_add_answer"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        />
+    </LinearLayout>
+
+</ScrollView>

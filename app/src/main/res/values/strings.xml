@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MultipleTableSqlLiteAndroid</string>
+    <string name="searchable">Search</string>
+
+    <string-array name="index">
+        <item>Sport</item>
+        <item>Politique</item>
+        <item>Histoire</item>
+        <item>Langue</item>
+        <item>Informatique</item>
+        <item>Economie</item>
+        <item>IOT</item>
+
+        <item>Science</item>
+        <item>Student</item>
+        <item>Pysique</item>
+        <item>Chemie</item>
+    </string-array>
+</resources>
